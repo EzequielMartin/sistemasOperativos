@@ -1,0 +1,24 @@
+ 12  88 665 filesystem.txt
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a
+# device; this may be used with UUID= as a more robust way to name devices
+# that works even if disks are added and removed. See fstab(5).
+root:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:syslog,ezequiel
+    1  sudo apt install build-essential dkms linux-headers-$(uname -r)
+    2  ls
+    3  cd ..
+    4  ls
+    5  cd ezequiel/
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+admi:x:1001:1001:,,,:/home/admi:/bin/bash
+ezequiel:1000:1000:/bin/bash
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync

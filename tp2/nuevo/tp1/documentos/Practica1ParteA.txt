@@ -1,0 +1,35 @@
+3- Es importante ya que brinda actualizaciones de seguridad, ademas de mejoras visuales, de estructura y nuevas opciones disponibles que mejoran el rendimiento del sistema.
+
+4- Es un programa que toma el control de la maquina cuando finalizan las verificaciones del hardware de memoria y dispositivos conectados. Este puede solicitar al usuario alguna informacion sobre que sistema cargar o sobre como cargarlo.
+
+5- Un interprete de comandos es un programa informatico que tiene la capacidad de traducir las ordenes que introducen los usuarios, mediante un conjunto de instrucciones proporcionadas por el sistema operativo.
+
+6- 
+/     : Raiz del sistema de archivos
+/bin  : Almacena la mayoria de los programas esenciales del sistema 
+/boot : Archivos utilizados por el cargador de arranque del sistema
+/dev  : Contiene los drivers para los dispositivos del sistema
+/etc  : Contiene los ficheros de configuracion y arranque del sistema Linux
+/home : Contiene los directorios personales de cada usuario
+/lib  : Contiene librerias que compartiran varios programas
+/mnt  : Contiene el punto de montaje
+/opt  : Contiene aplicaciones adicionales
+/proc : Contiene archivos especiales que envian y reciben informacion al kernel del sistema
+/root : Directorio del administrador del sistema
+/sbin : Contiene programas esenciales del sistema solo accesibles por el administrador
+/tmp  : Contiene archivos temporales
+/usr  : Contiene los datos, programas y librerias accesibles a todos los usuarios 
+/var  : Contiene informacion temporal de los programas
+
+7- ls, ls -a, ls -l
+
+8- Con la opcion --help
+
+10- En C:\Users
+
+11- CMD
+
+12-
+Program Files/Program Files (x86) : Contiene programas
+Users : Contiene las carpetas de los usuarios
+Windows : Contiene archivos propios del sistema operativos, por ej dlls.

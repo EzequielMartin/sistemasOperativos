@@ -1,0 +1,32 @@
+    1  sudo apt install build-essential dkms linux-headers-$(uname -r)
+    2  ls
+    3  cd ..
+    4  ls
+    5  cd ezequiel/
+    6  ls
+    7  mkdir practicas
+    8  cd practicas/
+    9  mkdir tp1
+   10  cd tp1/
+   11  touch perfil.txt
+   12  adduser admi
+   13  sudo adduser admi
+   14  ls
+   15  cp /etc/passwd usuarios
+   16  ls
+   17  cp /etc/group grupos
+   18  cat usuarios | grep ezequiel
+   19  cat usuarios | grep admi
+   20  cat usuarios | grep ezequiel
+   21  cat usuarios | grep ezequiel | cut -d":" -f 1,3,4,7 > perfil.txt 
+   22  cat perfil.txt 
+   23  touch -a -t 201803060000.00 perfil.txt 
+   24  stat perfil.txt 
+   25  head -2 usuarios 
+   26  head -4 grupos 
+   27  cat /etc/fstab | tee filesystem.txt
+   28  cat filesystem.txt 
+   29  wc -lcw filesystem.txt | tee cantidad
+   30  ls
+   31  history > \$HOME/practicas/tp1/cmd.txt
+   32  history > $HOME/practicas/tp1/cmd.txt

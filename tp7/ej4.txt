@@ -1,0 +1,2 @@
+Se recomendaria al menos una configuracion de raid 1, ya que al estar los
+datos duplicados estos estan mas protegidos.

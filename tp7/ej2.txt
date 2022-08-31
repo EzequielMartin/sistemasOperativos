@@ -1,0 +1,6 @@
+a) 2 Discos Rigidos "a y b"
+b) 1 Particion para el disco "a";
+   2 Particiones para el disco "b".
+c) -HPFS/NTFS Particion para Windows
+   -Linux Particion para Linux
+   -Linux Swap/Solaris Particion para memoria virtual

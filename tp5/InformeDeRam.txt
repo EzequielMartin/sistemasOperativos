@@ -1,0 +1,3 @@
+Memoria total 4014132
+Memoria usada 370264
+Memoria libre 2761048

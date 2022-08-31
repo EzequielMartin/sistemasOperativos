@@ -1,0 +1,184 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.2 100980 11740 ?        Ss   09:44   0:00 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    09:44   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   09:44   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   09:44   0:00 [rcu_par_gp]
+root           5  0.0  0.0      0     0 ?        I<   09:44   0:00 [netns]
+root           7  0.0  0.0      0     0 ?        I<   09:44   0:00 [kworker/0:0H-events_highpri]
+root          10  0.0  0.0      0     0 ?        I<   09:44   0:00 [mm_percpu_wq]
+root          11  0.0  0.0      0     0 ?        S    09:44   0:00 [rcu_tasks_rude_]
+root          12  0.0  0.0      0     0 ?        S    09:44   0:00 [rcu_tasks_trace]
+root          13  0.0  0.0      0     0 ?        S    09:44   0:00 [ksoftirqd/0]
+root          14  0.0  0.0      0     0 ?        I    09:44   0:00 [rcu_sched]
+root          15  0.0  0.0      0     0 ?        S    09:44   0:00 [migration/0]
+root          16  0.0  0.0      0     0 ?        S    09:44   0:00 [idle_inject/0]
+root          17  0.0  0.0      0     0 ?        S    09:44   0:00 [cpuhp/0]
+root          18  0.0  0.0      0     0 ?        S    09:44   0:00 [cpuhp/1]
+root          19  0.0  0.0      0     0 ?        S    09:44   0:00 [idle_inject/1]
+root          20  0.0  0.0      0     0 ?        S    09:44   0:00 [migration/1]
+root          21  0.0  0.0      0     0 ?        S    09:44   0:00 [ksoftirqd/1]
+root          23  0.0  0.0      0     0 ?        I<   09:44   0:00 [kworker/1:0H-events_highpri]
+root          24  0.0  0.0      0     0 ?        S    09:44   0:00 [kdevtmpfs]
+root          25  0.0  0.0      0     0 ?        I<   09:44   0:00 [inet_frag_wq]
+root          26  0.0  0.0      0     0 ?        S    09:44   0:00 [kauditd]
+root          27  0.0  0.0      0     0 ?        S    09:44   0:00 [khungtaskd]
+root          28  0.0  0.0      0     0 ?        S    09:44   0:00 [oom_reaper]
+root          29  0.0  0.0      0     0 ?        I<   09:44   0:00 [writeback]
+root          30  0.0  0.0      0     0 ?        S    09:44   0:00 [kcompactd0]
+root          31  0.0  0.0      0     0 ?        SN   09:44   0:00 [ksmd]
+root          32  0.0  0.0      0     0 ?        SN   09:44   0:00 [khugepaged]
+root          79  0.0  0.0      0     0 ?        I<   09:44   0:00 [kintegrityd]
+root          80  0.0  0.0      0     0 ?        I<   09:44   0:00 [kblockd]
+root          81  0.0  0.0      0     0 ?        I<   09:44   0:00 [blkcg_punt_bio]
+root          82  0.0  0.0      0     0 ?        I<   09:44   0:00 [tpm_dev_wq]
+root          83  0.0  0.0      0     0 ?        I<   09:44   0:00 [ata_sff]
+root          84  0.0  0.0      0     0 ?        I<   09:44   0:00 [md]
+root          85  0.0  0.0      0     0 ?        I<   09:44   0:00 [edac-poller]
+root          86  0.0  0.0      0     0 ?        I<   09:44   0:00 [devfreq_wq]
+root          87  0.0  0.0      0     0 ?        S    09:44   0:00 [watchdogd]
+root          89  0.0  0.0      0     0 ?        I<   09:44   0:00 [kworker/0:1H-kblockd]
+root          91  0.0  0.0      0     0 ?        S    09:44   0:00 [kswapd0]
+root          92  0.0  0.0      0     0 ?        S    09:44   0:00 [ecryptfs-kthrea]
+root          94  0.0  0.0      0     0 ?        I<   09:44   0:00 [kthrotld]
+root          95  0.0  0.0      0     0 ?        I<   09:44   0:00 [acpi_thermal_pm]
+root          97  0.0  0.0      0     0 ?        S    09:44   0:00 [scsi_eh_0]
+root          98  0.0  0.0      0     0 ?        I<   09:44   0:00 [scsi_tmf_0]
+root          99  0.0  0.0      0     0 ?        S    09:44   0:00 [scsi_eh_1]
+root         100  0.0  0.0      0     0 ?        I<   09:44   0:00 [scsi_tmf_1]
+root         102  0.0  0.0      0     0 ?        I<   09:44   0:00 [vfio-irqfd-clea]
+root         103  0.0  0.0      0     0 ?        I<   09:44   0:00 [mld]
+root         104  0.0  0.0      0     0 ?        I<   09:44   0:00 [ipv6_addrconf]
+root         107  0.0  0.0      0     0 ?        I    09:44   0:00 [kworker/0:2-events]
+root         115  0.0  0.0      0     0 ?        I<   09:44   0:00 [kstrp]
+root         118  0.0  0.0      0     0 ?        I<   09:44   0:00 [zswap-shrink]
+root         119  0.0  0.0      0     0 ?        I<   09:44   0:00 [kworker/u5:0]
+root         124  0.0  0.0      0     0 ?        I<   09:44   0:00 [charger_manager]
+root         168  0.0  0.0      0     0 ?        I<   09:44   0:00 [kworker/1:1H-kblockd]
+root         171  0.0  0.0      0     0 ?        I<   09:44   0:00 [cryptd]
+root         172  0.0  0.0      0     0 ?        S    09:44   0:00 [scsi_eh_2]
+root         174  0.0  0.0      0     0 ?        I<   09:44   0:00 [scsi_tmf_2]
+root         196  0.0  0.0      0     0 ?        I<   09:44   0:00 [ttm_swap]
+root         197  0.0  0.0      0     0 ?        S    09:44   0:00 [irq/18-vmwgfx]
+root         198  0.0  0.0      0     0 ?        S    09:44   0:00 [card0-crtc0]
+root         199  0.0  0.0      0     0 ?        S    09:44   0:00 [card0-crtc1]
+root         200  0.0  0.0      0     0 ?        S    09:44   0:00 [card0-crtc2]
+root         201  0.0  0.0      0     0 ?        S    09:44   0:00 [card0-crtc3]
+root         202  0.0  0.0      0     0 ?        S    09:44   0:00 [card0-crtc4]
+root         203  0.0  0.0      0     0 ?        S    09:44   0:00 [card0-crtc5]
+root         204  0.0  0.0      0     0 ?        S    09:44   0:00 [card0-crtc6]
+root         205  0.0  0.0      0     0 ?        S    09:44   0:00 [card0-crtc7]
+root         291  0.0  0.0      0     0 ?        S    09:44   0:00 [jbd2/sda3-8]
+root         292  0.0  0.0      0     0 ?        I<   09:44   0:00 [ext4-rsv-conver]
+root         339  0.0  0.8  69388 35264 ?        S<s  09:44   0:00 /lib/systemd/systemd-journald
+root         374  0.0  0.0      0     0 ?        I<   09:44   0:00 [ipmi-msghandler]
+root         376  0.0  0.1  26528  7068 ?        Ss   09:44   0:00 /lib/systemd/systemd-udevd
+root         426  0.0  0.0      0     0 ?        I<   09:45   0:00 [iprt-VBoxWQueue]
+root         543  0.0  0.0      0     0 ?        I    09:45   0:02 [kworker/1:4-events]
+systemd+     546  0.0  0.3  25524 13476 ?        Ss   09:45   0:00 /lib/systemd/systemd-resolved
+root         648  0.0  0.1 242512  7672 ?        Ssl  09:45   0:00 /usr/libexec/accounts-daemon
+root         649  0.0  0.0   2812  1156 ?        Ss   09:45   0:00 /usr/sbin/acpid
+avahi        652  0.0  0.0   7628  3564 ?        Ss   09:45   0:00 avahi-daemon: running [ezequiel-VirtualBox.local]
+root         654  0.0  0.0  12024  3096 ?        Ss   09:45   0:00 /usr/sbin/cron -f -P
+message+     656  0.0  0.1  10012  6116 ?        Ss   09:45   0:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         657  0.0  0.4 263248 17988 ?        Ssl  09:45   0:00 /usr/sbin/NetworkManager --no-daemon
+root         664  0.0  0.0  82696  2008 ?        Ssl  09:45   0:00 /usr/sbin/irqbalance --foreground
+root         666  0.0  0.5  43548 20828 ?        Ss   09:45   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         667  0.0  0.2 245776 11092 ?        Ssl  09:45   0:00 /usr/libexec/polkitd --no-debug
+syslog       668  0.0  0.1 222400  5564 ?        Ssl  09:45   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         669  0.0  0.9 874504 38624 ?        Ssl  09:45   0:01 /usr/lib/snapd/snapd
+root         670  0.0  0.1  23628  8000 ?        Ss   09:45   0:00 /lib/systemd/systemd-logind
+root         671  0.0  0.3 393048 13352 ?        Ssl  09:45   0:00 /usr/libexec/udisks2/udisksd
+root         675  0.0  0.1  16492  5700 ?        Ss   09:45   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi        679  0.0  0.0   7440   336 ?        S    09:45   0:00 avahi-daemon: chroot helper
+root         739  0.0  0.3  75536 13912 ?        Ss   09:45   0:00 /usr/sbin/cupsd -l
+root         742  0.0  0.5 120576 23464 ?        Ssl  09:45   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         743  0.0  0.2 243276 11908 ?        Ssl  09:45   0:00 /usr/sbin/ModemManager
+root         810  0.0  0.2 172612 11264 ?        Ssl  09:45   0:00 /usr/sbin/cups-browsed
+kernoops     824  0.0  0.0  13080   452 ?        Ss   09:45   0:00 /usr/sbin/kerneloops --test
+kernoops     827  0.0  0.0  13080   456 ?        Ss   09:45   0:00 /usr/sbin/kerneloops
+root        1048  0.0  0.1 306752  7608 ?        SLsl 09:45   0:00 /usr/sbin/lightdm
+root        1058  0.0  0.0 299216  2868 ?        Sl   09:45   0:00 /usr/sbin/VBoxService --pidfile /var/run/vboxadd-service.sh
+root        1074  0.2  3.0 485676 122760 tty7    Ssl+ 09:45   0:26 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root        1075  0.0  0.0  11304  1112 tty1     Ss+  09:45   0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+rtkit       1175  0.0  0.0 154000  1580 ?        SNsl 09:45   0:00 /usr/libexec/rtkit-daemon
+root        1257  0.0  0.2 244752  8588 ?        Ssl  09:45   0:00 /usr/libexec/upowerd
+root        1380  0.0  0.2 162976  9660 ?        Sl   09:45   0:00 lightdm --session-child 13 20
+ezequiel    1484  0.0  0.2  17420 10096 ?        Ss   09:45   0:00 /lib/systemd/systemd --user
+ezequiel    1485  0.0  0.0 103940  3984 ?        S    09:45   0:00 (sd-pam)
+ezequiel    1495  0.0  0.1  42100  6660 ?        S<sl 09:45   0:00 /usr/bin/pipewire
+ezequiel    1496  0.0  0.1  25988  6612 ?        Ssl  09:45   0:00 /usr/bin/pipewire-media-session
+ezequiel    1497  0.0  0.7 2475640 29028 ?       S<sl 09:45   0:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+ezequiel    1506  0.0  0.1 243428  7364 ?        Sl   09:45   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+ezequiel    1509  0.0  0.6 344664 26928 ?        Ssl  09:45   0:00 mate-session
+ezequiel    1517  0.0  0.1   9120  5224 ?        Ss   09:45   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ezequiel    1536  0.0  0.1 465696  7440 ?        Ssl  09:45   0:00 /usr/libexec/xdg-document-portal
+ezequiel    1540  0.0  0.1 238668  6100 ?        Ssl  09:45   0:00 /usr/libexec/xdg-permission-store
+root        1550  0.0  0.0   2792  1000 ?        Ss   09:45   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+ezequiel    1718  0.0  0.0  23344   384 ?        S    09:45   0:00 /usr/bin/VBoxClient --clipboard
+ezequiel    1719  0.0  0.1 155480  4416 ?        Sl   09:45   0:00 /usr/bin/VBoxClient --clipboard
+ezequiel    1733  0.0  0.0  23344   380 ?        S    09:45   0:00 /usr/bin/VBoxClient --draganddrop
+ezequiel    1734  0.0  0.0 156100  2524 ?        Sl   09:45   0:08 /usr/bin/VBoxClient --draganddrop
+ezequiel    1735  0.0  0.0  23344   380 ?        S    09:45   0:00 /usr/bin/VBoxClient --seamless
+ezequiel    1736  0.0  0.0 155580  2544 ?        Sl   09:45   0:00 /usr/bin/VBoxClient --seamless
+ezequiel    1744  0.0  0.0  23344   380 ?        S    09:45   0:00 /usr/bin/VBoxClient --vmsvga
+ezequiel    1745  0.0  0.0 155832  3772 ?        Sl   09:45   0:00 /usr/bin/VBoxClient --vmsvga
+ezequiel    1843  0.0  0.2 243164  8204 ?        Ssl  09:45   0:00 /usr/libexec/gvfsd
+ezequiel    1848  0.0  0.1 380884  6768 ?        Sl   09:45   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+ezequiel    1856  0.0  0.1 309756  7824 ?        Ssl  09:45   0:00 /usr/libexec/at-spi-bus-launcher
+ezequiel    1862  0.0  0.1   8560  4480 ?        S    09:45   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus_0
+ezequiel    1889  0.0  0.1 157076  5900 ?        Ssl  09:45   0:00 /usr/libexec/dconf-service
+ezequiel    1907  0.0  1.1 1211296 47624 ?       Sl   09:45   0:00 /usr/bin/mate-settings-daemon
+ezequiel    1917  0.0  0.2 162876  8068 ?        Sl   09:45   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+ezequiel    2064  0.0  0.2 392288 10448 ?        Ssl  09:45   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+ezequiel    2087  0.0  0.1 239940  7208 ?        Ssl  09:45   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+ezequiel    2088  0.0  1.2 821832 49536 ?        Sl   09:45   0:03 marco
+ezequiel    2092  0.0  0.1 239156  6716 ?        Ssl  09:45   0:00 /usr/libexec/gvfs-goa-volume-monitor
+ezequiel    2096  0.0  0.1 238984  6780 ?        Ssl  09:45   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+ezequiel    2103  0.0  0.2 317724  8228 ?        Ssl  09:45   0:00 /usr/libexec/gvfs-afc-volume-monitor
+ezequiel    2109  0.0  0.9 1036956 37720 ?       Sl   09:45   0:00 mate-panel
+ezequiel    2119  0.0  1.6 439792 65964 ?        Sl   09:45   0:00 /usr/bin/caja
+ezequiel    2120  0.0  0.6  84476 25556 ?        Ss   09:45   0:00 /snap/snapd-desktop-integration/14/bin/snapd-desktop-integration
+ezequiel    2139  0.0  1.0 851464 42060 ?        Sl   09:45   0:00 /usr/lib/mate-panel/wnck-applet
+ezequiel    2141  0.0  0.8 502556 32284 ?        Sl   09:45   0:00 /usr/lib/mate-applets/trashapplet
+ezequiel    2144  0.0  1.0 681432 44144 ?        Sl   09:45   0:00 /usr/lib/mate-indicator-applet/mate-indicator-applet-complete
+ezequiel    2146  0.0  0.8 502592 32260 ?        Sl   09:45   0:00 /usr/lib/mate-panel/notification-area-applet
+ezequiel    2147  0.0  1.1 817328 48176 ?        Sl   09:45   0:00 /usr/lib/x86_64-linux-gnu/brisk-menu/brisk-menu
+ezequiel    2259  0.0  0.1 928172  7712 ?        Sl   09:45   0:00 /usr/libexec/ayatana-indicator-session/ayatana-indicator-session-service
+ezequiel    2267  0.0  0.7 494264 30788 ?        Sl   09:45   0:00 update-notifier
+ezequiel    2279  0.0  0.1 316724  7680 ?        Sl   09:45   0:00 /usr/libexec/ayatana-indicator-messages/ayatana-indicator-messages-service
+ezequiel    2290  0.0  1.0 477416 44096 ?        Sl   09:45   0:00 nm-applet --indicator
+ezequiel    2292  0.0  0.1 535092  7232 ?        Sl   09:45   0:00 /usr/libexec/ayatana-indicator-power/ayatana-indicator-power-service
+ezequiel    2295  0.0  0.6 352348 27936 ?        Sl   09:45   0:00 /usr/libexec/ayatana-indicator-printers/ayatana-indicator-printers-service
+ezequiel    2308  0.0  0.4 590736 18296 ?        Sl   09:45   0:00 /usr/libexec/ayatana-indicator-datetime/ayatana-indicator-datetime-service
+ezequiel    2317  0.0  0.1 386512  6088 ?        Sl   09:45   0:00 /usr/libexec/ayatana-indicator-notifications/ayatana-indicator-notifications-service
+ezequiel    2324  0.0  0.2 317256  8352 ?        Sl   09:45   0:00 /usr/libexec/gvfsd-trash --spawner :1.12 /org/gtk/gvfs/exec_spaw/0
+ezequiel    2338  0.0  0.7 501700 30068 ?        Sl   09:45   0:00 mate-power-manager
+ezequiel    2344  0.0  1.2 376868 52156 ?        Sl   09:45   0:00 /usr/bin/python3 /usr/bin/blueman-applet
+ezequiel    2354  0.0  0.5 343720 22184 ?        Sl   09:45   0:00 /usr/lib/x86_64-linux-gnu/polkit-mate/polkit-mate-authentication-agent-1
+ezequiel    2359  0.0  0.2 922248 11960 ?        Sl   09:45   0:00 /usr/libexec/ayatana-indicator-sound/ayatana-indicator-sound-service
+ezequiel    2380  0.0  0.1 165536  6496 ?        Ssl  09:45   0:00 /usr/libexec/gvfsd-metadata
+ezequiel    2384  0.0  0.3 255040 12396 ?        Sl   09:45   0:00 /usr/libexec/ayatana-indicator-application/ayatana-indicator-application-service
+ezequiel    2401  0.0  0.3 405208 14092 ?        Ssl  09:45   0:00 /usr/libexec/xdg-desktop-portal
+ezequiel    2408  0.0  0.6 344660 26072 ?        Ssl  09:45   0:00 /usr/libexec/xdg-desktop-portal-gtk
+ezequiel    2457  0.0  0.0   2888   956 ?        S    09:45   0:00 sh -c /usr/lib/x86_64-linux-gnu/libproxy/0.4.17/pxgsettings org.gnome.system.proxy org.gnome.system.proxy.http org.gnome.system.proxy.https org.gnome.system.proxy.ftp org.gnome.system.proxy.socks
+ezequiel    2458  0.0  0.1 233176  6728 ?        Sl   09:45   0:00 /usr/lib/x86_64-linux-gnu/libproxy/0.4.17/pxgsettings org.gnome.system.proxy org.gnome.system.proxy.http org.gnome.system.proxy.https org.gnome.system.proxy.ftp org.gnome.system.proxy.socks
+ezequiel    2471  0.0  0.6 344728 25796 ?        Sl   09:45   0:00 /usr/bin/mate-screensaver --no-daemon
+ezequiel    2518  0.0  0.1  46956  7096 ?        Ss   09:45   0:00 /usr/lib/bluetooth/obexd
+ezequiel    2606  0.1  1.2 829468 51880 ?        Sl   09:51   0:14 mate-terminal
+ezequiel    2640  0.0  0.1  13808  5520 pts/0    Ss   09:51   0:00 bash
+root        2740  0.0  0.0      0     0 ?        I    10:00   0:00 [kworker/1:0-events]
+root        3380  0.0  0.0      0     0 ?        I    12:28   0:00 [kworker/u4:1-events_unbound]
+root        3390  0.0  0.0      0     0 ?        I    12:32   0:00 [kworker/0:1-events]
+ezequiel    3397  2.5  8.6 2955572 348156 ?      Sl   12:35   0:19 /snap/firefox/1589/usr/lib/firefox/firefox
+ezequiel    3594  0.0  0.9 217672 36564 ?        Sl   12:35   0:00 /snap/firefox/1589/usr/lib/firefox/firefox -contentproc -parentBuildID 20220719111523 -prefsLen 17665 -prefMapSize 220595 -appDir /snap/firefox/1589/usr/lib/firefox/browser 3397 true socket
+ezequiel    3643  0.0  2.2 2423396 88460 ?       Sl   12:35   0:00 /snap/firefox/1589/usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 20010 -prefMapSize 220595 -jsInitLen 267752 -parentBuildID 20220719111523 -appDir /snap/firefox/1589/usr/lib/firefox/browser 3397 true tab
+ezequiel    3661  0.1  3.0 2469084 123460 ?      Sl   12:35   0:01 /snap/firefox/1589/usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 20194 -prefMapSize 220595 -jsInitLen 267752 -parentBuildID 20220719111523 -appDir /snap/firefox/1589/usr/lib/firefox/browser 3397 true tab
+ezequiel    3691  0.0  0.6 572224 25932 ?        Sl   12:35   0:00 /usr/bin/snap userd
+ezequiel    3744  0.0  2.5 2436976 103184 ?      Sl   12:35   0:00 /snap/firefox/1589/usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 21140 -prefMapSize 220595 -jsInitLen 267752 -parentBuildID 20220719111523 -appDir /snap/firefox/1589/usr/lib/firefox/browser 3397 true tab
+root        3933  0.0  0.0      0     0 ?        I    12:35   0:00 [kworker/u4:4-events_unbound]
+ezequiel    4115  0.0  1.5 2393248 63292 ?       Sl   12:35   0:00 /snap/firefox/1589/usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 29515 -prefMapSize 220595 -jsInitLen 267752 -parentBuildID 20220719111523 -appDir /snap/firefox/1589/usr/lib/firefox/browser 3397 true tab
+ezequiel    4129  0.0  1.5 2393800 63772 ?       Sl   12:35   0:00 /snap/firefox/1589/usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 29515 -prefMapSize 220595 -jsInitLen 267752 -parentBuildID 20220719111523 -appDir /snap/firefox/1589/usr/lib/firefox/browser 3397 true tab
+ezequiel    4141  0.0  1.6 2393796 64564 ?       Sl   12:35   0:00 /snap/firefox/1589/usr/lib/firefox/firefox -contentproc -childID 6 -isForBrowser -prefsLen 29532 -prefMapSize 220595 -jsInitLen 267752 -parentBuildID 20220719111523 -appDir /snap/firefox/1589/usr/lib/firefox/browser 3397 true tab
+root        4522  0.0  0.0      0     0 ?        I    12:47   0:00 [kworker/u4:0-events_unbound]
+ezequiel    4524  0.0  0.0  12632  3976 pts/0    S+   12:48   0:00 bash ej3.sh
+ezequiel    4526  0.0  0.0  15200  3596 pts/0    R+   12:48   0:00 ps aux

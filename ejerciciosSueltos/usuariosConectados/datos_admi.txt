@@ -1,0 +1,8 @@
+ID: 41
+1001
+Nombre: Gnats Bug-Reporting System (admin)
+,,,
+Ruta: /var/lib/gnats
+/home/admi
+Shell: /usr/sbin/nologin
+/bin/bash

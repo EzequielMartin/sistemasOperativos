@@ -1,0 +1,6 @@
+El raid 0, en el cual se dividen los datos de un disco en dos discos, lo que
+permite el acceso en simultaneo a datos de ambos discos.
+
+Por ejemplo los juegos son un tipo de aplicacion donde se benefician con
+mayores velocidades de carga de datos ya que se necesitan cargar nuevos
+recursos constantemente y la baja performance es muy facil de notar.

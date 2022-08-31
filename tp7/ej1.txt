@@ -1,0 +1,5 @@
+a) 1 Disco Rigido "hda"
+b) 3 Particiones "1,2,3"
+c) -Particion HPFS/NTFS es una particion con Windows
+   -Particion Linux es una particion de Linux
+   -Particion Linux Swap es una particion para memoria virtual que usa Linux

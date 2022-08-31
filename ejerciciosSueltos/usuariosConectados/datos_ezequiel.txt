@@ -1,0 +1,4 @@
+ID: 1000
+Nombre: ezequiel,,,
+Ruta: /home/ezequiel
+Shell: /bin/bash

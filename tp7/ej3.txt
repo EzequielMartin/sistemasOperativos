@@ -1,0 +1,24 @@
+La funcionalidad de HotSwap indica que se pueden remover e instalar discos
+sin la necesidad de apagar el sistema.
+
+RAID 1+0
+--------
+Un raid de disco 1+0 es un espejo de divisiones de discos, 2 discos contienen
+cada uno la mitad de los registros, posibilitando el acceso en paralelo a dos
+direcciones del disco al mismo tiempo, a la misma vez estos dos discos estan
+"espejados" en otros dos discos, proporcionando asi redundancia de datos lo
+cual nos da seguridad frente a posibles perdidad de informacion.
+
+En este tipo de configuracion hay 2 discos que son copias de los dos discos
+que estamos utilizando por lo que, desde el punto de vista de la capacidad
+de almacenamiento, estos presentarian una perdida de capacidad ya que no
+se estan utilizando para almacenar otros datos.
+
+RAID 5
+------
+Se dividen los datos en bloques alternativos en los distintos discos,
+de manera que si sucede un error en uno de estos discos se puede subsanar
+con los datos almacenados en los otros discos.
+
+Con este tipo de configuracion se aprovecha cerca del 80% de la capacidad
+de los discos
